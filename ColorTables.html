@@ -1,0 +1,50 @@
+<div style="text-align: left;">
+    자바스크립트 색상표 / Javascript Color Table
+</div>
+
+<script language="JavaScript">
+    clr = new Array('00', '20', '40', '60', '80', 'a0', 'c0', 'ff');
+    for (i = 0; i < 8; i++) {
+        document.write('<' + 'table width=500px border=1 cellpadding=8' + '>');
+        for (j = 0; j < 8; j++) {
+            document.write('<' + 'tr' + '>');
+            for (k = 0; k < 8; k++) {
+                document.write('<td style="background-color:#' + clr[i] + clr[j] + clr[k] + '">');
+                document.write('<tt>#');
+                document.write(clr[i] + clr[j] + clr[k] + ' </tt></td' + '>');
+            }
+            document.write("</tr" + ">");
+        }
+        document.write("</table" + "><br" + "/>");
+    }
+// end -->
+</script>
+
+
+
+<!-- <script lang="javaScript">
+    clr=new Array('00','20','40','60','80','a0','c0','ff')
+    for(i=0;i<8;i++){
+        document.write('<'+)
+    }
+</script> -->
+
+<!-- <div style="text-align: center;">
+    자바스크립트 색상표 / Javascript Color Table
+</div>
+<script language="JavaScript">
+    clr = new Array('00', '20', '40', '60', '80', 'a0', 'c0', 'ff');
+    for (i = 0; i < 8; i++) {
+        document.write('<' + 'table width=500px border=1 cellpadding=8' + '>');
+        for (j = 0; j < 8; j++) {
+            document.write('<' + 'tr' + '>');
+            for (k = 0; k < 8; k++) {
+                document.write('<td style="background-color:#' + clr[i] + clr[j] + clr[k] + '>');
+                document.write('<tt>#')
+                document.write(clr[i] + clr[j] + clr[k] + ' </tt></td' + '>');
+            }
+            document.write("</tr" + ">");
+        } <br />
+        document.write("</table" + "><br" + "/>;");
+    }
+</script> -->
